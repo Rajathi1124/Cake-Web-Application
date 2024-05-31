@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:wght@200;400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ *{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+#navbar{
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background-color: rgb(19, 7, 16);
+}
+.navbar .navbar-brand{
+     font-size: 30px;
+     font-weight: 600;
+     color: rgb(250, 165, 8) !important;
+}
+#navbarSupportedContent a{
+     color: white;
+     border-bottom: 2px  solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px  solid  rgb(250, 165, 8) ;
+}
+#navbarSupportedContent button{
+    background-color: orange;
+    width: 5rem;
+    border-radius: 20px;
+    font-size: medium;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.4)), url(https://img.freepik.com/premium-photo/black-forest-chocolate-cake-with-delicious-black-background-pastry-free-photos_1417-20128.jpg);
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+}    
+#home h1{
+    font-size: 70px;
+    color:white;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#home,p{
+    font-size: 30px;
+    font-weight: bold;
+    color: orange;
+}
+#home .input-group{
+    width: 30%;
+    height: 10px;
+}
+.SignIn{
+    background: orange !important;
+    color: white !important;
+}
+#About{
+   height: 60vh;
+}
+#About h1{
+    font-weight: 800;
+    font-size: 40px;
+    color: rgb(56, 4, 4);
+    text-align: center;
+    margin-top: 225px;
+}
+#About p{
+    font-size:20px;
+    margin-top: 15px;
+}
+#About img{
+    margin-left: 80px;
+    border-radius: 50%;
+}
+#menuprice h1{
+   color: rgb(87, 22, 3);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#menuprice img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+.card{
+    width: 250px;
+    height: 350px;
+    margin: 20px 60px;
+    background-color: rgb(234, 243, 250) !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+          inset 4px  4px  10px white;
+    border-radius: 20px !important;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+.card:hover{
+    box-shadow: inset 5px 5px 10px rgba(0,0,0,.4),
+                inset -4px -4px 10px white;
+    transition: .3s;
+}
+#Gallery h1{
+     font-weight: 600;
+     font-size:40px ;
+     letter-spacing: 2px;
+}
+.card2 {
+    width: 250px;
+    height: 190px;
+    margin: 40px 40px 55px;
+}
+.card2 img{
+    object-fit: cover;
+    transition: transorm 0.7s;
+    height: 100%;
+    border-radius: 10%!important;
+    overflow: hidden;
+}
+.card2 img:hover{
+transform: scale(1.2);
+}
+.card2 p{
+    color: rgb(99, 3, 3);
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+}
+#Ourservices h1{
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.card3{
+    height: 70vh;
+}
+.card3 img{
+    width: 250px;
+    height: 250px;
+    margin-left: 90px;
+}
+.card3 h3{
+    color: rgb(236, 97, 4);
+    font-size: 25px;
+}
+.card3 p{
+    color: black;
+    font-size: large;
+}
+#contact img{
+    height: 100%;
+}
+.box{
+     width: 80% !important;
+     margin-top: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#contact input{
+    margin: 10px 0px;
+}
+#contact textarea{
+    margin: 10px 0px;
+    height: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
